@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: black;
+    background-color: rgba(22, 141, 178, 0.8);
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+}
+h1{
+    font-family: 'Libre Bodoni', serif;
+    line-height:3.5rem;
+    font-size:4rem;
+    margin-bottom: 5rem;
+}
+.box{
+    background-color:black;
+    text-align:center;
+    padding-top: 10rem;
+    margin:6rem;
+    height: 70vh;
+    width:60vw;
+    background: linear-gradient(110deg, #00cefc 60%, #ffffff 60%);
+    border: 1rem solid #fff;
+}
+.box-box{
+    padding-top:4rem;
+} 
+
+.box-box input{
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px black;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 40%;
+  margin-bottom: 20px;
+}
+.manual-jumbotron{
+    text-align: center;
+    width:80vw;
+    height: 40vh;
+    background-color: rgb(190, 242, 255);
+    margin-top: 20vh;
+}
+.failure-btn{
+    margin-top: 10vh;
+}
+
+.list{
+    text-align: center;
+    padding:15vh;
+}
+.list-wrap{
+    background-color:black;
+    padding:2rem;
+}
+.listitems{
+    width:25rem;
+    height:8vh;
+    margin:2rem;
+    background-color: #fdfffe8d;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border:4px solid rgb(0, 92, 123);
+    border-radius: 6px;
+    transition: width height font-size 2s ease-in;
+    line-height: 1.5rem;
+    font-family: "Architects Daughter", cursive; ;
+    background-color: whitesmoke;
+    padding:0 1rem;
+}
+
+.listitems:hover{
+    height: 9vh;
+    width: 26rem;
+    font-size: 1rem;
+}
